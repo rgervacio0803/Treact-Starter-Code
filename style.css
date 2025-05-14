@@ -201,11 +201,11 @@ header .row {
 }
 
 .header__descrition {
-    width: 40%;
+    width: 41.667%;
 }
 
 .header__img--wrapper {
-    width: calc(100% - 40%);
+    width: calc(100% - 41.667%);
 }
 
 .header__description--para {
@@ -231,6 +231,10 @@ header .row {
     max-width: 768px;
 }
 
+img {
+    width: 100%;
+}
+
 /* 
 
 FEATURES ↓
@@ -248,6 +252,64 @@ FEATURES ↓
     align-items: center;
 }
 
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+}
+
+.section__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+}
+
+.section__title--para {
+    text-align: center;
+    max-width: 576px;
+}
+
+.feature__img {
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 250px;
+}
+
+.feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    width: calc(100% / 3);
+}
+
+.feature__row {
+    display: flex;
+    align-items: flex-start;
+    padding: 32px 24px;
+
+}
+
+.feature__para {
+    margin-top: 16px;
+    font-size: 16px;
+    max-width: calc(634px / 3);
+    color: rgb(124, 139, 161);
+    line-height: 2;
+    font-weight: 500;
+}
+
+.feature__img--wrapper {
+    width: 24px;
+    height: 24px;
+}
 
 /* 
 
@@ -262,6 +324,52 @@ QUALITY WORK ↓
     align-items: center;
 }
 
+.quality__description {
+    width: 50%;
+    padding: 0 64px 0 0;
+}
+
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+#quality .btn {
+    margin-top: 32px;
+}
+
+.quality__img {
+    width: 50%;
+}
+
+.btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms;
+}
 
 /* 
 
@@ -276,6 +384,70 @@ STEPS ↓
     align-items: center;
 }
 
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.steps__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.steps__text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+}
+
+
+.steps__img--wrapper {
+    width: 50%;
+}
+
+
+.section__tag {
+    font-size: 16px;
+    color: #6415ff;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.steps__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+}
+
+
+.steps__text--para {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
 
 /* 
 
@@ -289,6 +461,68 @@ VALUES ↓
     align-items: center;
 }
 
+#values .section__title {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.values__description {
+    width: 50%;
+  padding: 32px 64px 32px 0;
+}
+
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+
+#values .btn {
+    margin-top: 48px;
+}
+
+.values__img {
+    width: 50%;
+}
+
+.value__list {
+    display: flex;
+}
+
+.value:nth-of-type(1) {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value:nth-child(1) .value__img--wrapper {
+    background-color: #9ae6b4;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+}
+
+.value__img--wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value__name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.value__para {
+    margin-top: 16px;
+    line-height: 1.625;
+    color: #718096;
+}
 
 /*
 
