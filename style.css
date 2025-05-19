@@ -735,8 +735,7 @@ TESTIMONIALS ↓
     padding-left: 64px;
 }
 
-.testimonials__img, 
- testimonials__description {
+.testimonials__img, .testimonials__description {
     width: 50%;
 }
 
